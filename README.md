@@ -18,4 +18,9 @@ By enhancing these three changes, we conduct the experiments, the result is show
 ![](image/result.jpg)
 
 To use the MSegRNN, first:
-- clone the code into local .
+- git clone https://github.com/UniqueoneZ/MSegRNN.git.
+- cd the MsegRNN file locaion.
+- pip install -r requirements.txt
+- sh run_main.sh
+
+Note that there is a certain variance in the experimental data for the model, and the hyperparameters have not yet been finely tuned. We will continue to improve this work in the future.

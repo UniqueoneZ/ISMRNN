@@ -7,3 +7,5 @@ We made several changes in SegRNN models to enhance it's behavior when the look-
 - We add the mamba structure to preprocessing the time series data.
 - We replace the fixed segmentation of SegRNN into implicit Segmentation, which allows a dense information processing in the Segmentation Stage.
 - We add a residual block from time series to encoder output, reduce the information loss in the RNN structure.
+
+The overall structure is shown as follow:(images/overall_structure.png)

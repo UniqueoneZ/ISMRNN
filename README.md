@@ -16,3 +16,6 @@ The implicit segmentation we used is shown as follow:
 
 By enhancing these three changes, we conduct the experiments, the result is shown as follow:
 ![](image/result.jpg)
+
+To use the MSegRNN, first:
+- clone the code into local .

@@ -13,3 +13,5 @@ The overall structure is shown as follow:
 
 The implicit segmentation we used is shown as follow:
 ![](image/Implicit_Segmentation.png)
+
+By enhancing these three changes, we conduct the experiments, the result is shown as follow:

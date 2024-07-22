@@ -26,6 +26,7 @@ To use the MSegRNN, first:
 Note that there is a certain variance in the experimental data for the model, and the hyperparameters have not yet been finely tuned. We will continue to improve this work in the future.
 
 If you find our working useful, you may cite our paper if need:
+
 @article{zhao2024msegrnn,
 
   title={MSegRNN: Enhanced SegRNN Model with Mamba for Long-Term Time Series Forecasting},

@@ -27,8 +27,13 @@ Note that there is a certain variance in the experimental data for the model, an
 
 If you find our working useful, you may cite our paper if need:
 @article{zhao2024msegrnn,
+
   title={MSegRNN: Enhanced SegRNN Model with Mamba for Long-Term Time Series Forecasting},
+
   author={Zhao, GaoXiang and Wang, XiaoQiang},
+  
   journal={arXiv preprint arXiv:2407.10768},
+  
   year={2024}
+
 }

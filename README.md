@@ -24,3 +24,11 @@ To use the MSegRNN, first:
 - sh run_main.sh
 
 Note that there is a certain variance in the experimental data for the model, and the hyperparameters have not yet been finely tuned. We will continue to improve this work in the future.
+
+If you find our working useful, you may cite our paper if need:
+@article{zhao2024msegrnn,
+  title={MSegRNN: Enhanced SegRNN Model with Mamba for Long-Term Time Series Forecasting},
+  author={Zhao, GaoXiang and Wang, XiaoQiang},
+  journal={arXiv preprint arXiv:2407.10768},
+  year={2024}
+}

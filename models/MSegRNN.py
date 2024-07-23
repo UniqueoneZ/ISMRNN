@@ -114,7 +114,7 @@ class Model(nn.Module):
         seg_tensor = self.linear1(x) # b,c,l,n
 
 
-        # record the vector, one part go through redidual block and the other go through rnn encoding block
+        # record the vector, one part go through residual block and the other go through rnn encoding block
         storage = seg_tensor # b,c,l,n
 
         # the residual block, which storage_hidden is used in RNN output to get final hidden state.

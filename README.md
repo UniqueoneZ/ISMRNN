@@ -18,6 +18,7 @@ By enhancing these three changes, we conduct the experiments, the result is show
 ![](image/result.jpg)
 
 To use the MSegRNN, first:
+- create a dataset file and add the corresponding datasets.
 - git clone https://github.com/UniqueoneZ/MSegRNN.git.
 - cd the MsegRNN file locaion.
 - pip install -r requirements.txt

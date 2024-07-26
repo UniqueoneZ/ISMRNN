@@ -99,7 +99,7 @@ parser.add_argument('--test_flop', action='store_true', default=False, help='See
 
 # Mamba Settings
 parser.add_argument('--d_state', type=int, default=4, help='d_state of mamba')
-
+parser.add_argument('--conv', type=int, default=0, help='use conv in mamba')
 args = parser.parse_args()
 
 

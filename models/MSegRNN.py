@@ -7,6 +7,7 @@ import torch.nn as nn
 from layers.RevIN import RevIN
 from models.model import *
 from einops import rearrange, repeat, einsum
+from mamba_ssm import Mamba as mamba
 
 class Model(nn.Module):
     def __init__(self, configs):
@@ -85,8 +86,15 @@ class Model(nn.Module):
         )
 
         #model statements: from (b, c, l) to (b, c, l)
-        args = ModelArgs(d_model = self.enc_in, n_layer = 1, vocab_size = configs.enc_in, d_state = configs.d_state) #
-        self.model = Mamba(args)
+        # use or not use conv
+        if configs.conv:
+            self.model = mamba(d_model=self.enc_in, # Model dimension d_model
+                                    d_state=configs.d_state,  # SSM state expansion factor
+                                    d_conv=2,    # Local convolution width
+                                    expand=2,).to("cuda")
+        else:
+            args = ModelArgs(d_model = self.enc_in, n_layer = 1, vocab_size = configs.enc_in, d_state = configs.d_state) #
+            self.model = Mamba(args)
 
     def forward(self, x):
 

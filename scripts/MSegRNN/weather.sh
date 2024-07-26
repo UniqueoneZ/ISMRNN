@@ -35,5 +35,6 @@ do
       --dec_way pmf \
       --channel_id 1 \
       --d_state 4 \
+      --conv 1 \
       --itr 1 --batch_size 64 --learning_rate 0.0007 > logs/LongForecasting/$model_name'_'$model_id_name'_'$seq_len'_'$pred_len.log
 done

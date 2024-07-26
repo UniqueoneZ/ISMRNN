@@ -130,7 +130,7 @@ if __name__ == '__main__':
     if args.is_training:
         for ii in range(args.itr):
             # setting record of experiments
-            setting = '{}_{}_{}_ft{}_sl{}_pl{}_dm{}_dr{}_rt{}_dw{}_sl{}_{}_{}_{}_{}'.format(
+            setting = '{}_{}_{}_ft{}_sl{}_pl{}_dm{}_dr{}_rt{}_dw{}_sl{}_{}_{}_{}_{}_{}'.format(
                 args.model_id,
                 args.model,
                 args.data,
@@ -145,6 +145,7 @@ if __name__ == '__main__':
                 args.loss,
                 args.des,
                 args.d_state,
+                args.conv,
                 ii)
 
             exp = Exp(args)  # set experiments
@@ -161,7 +162,7 @@ if __name__ == '__main__':
             torch.cuda.empty_cache()
     else:
         ii = 0
-        setting = '{}_{}_{}_ft{}_sl{}_pl{}_dm{}_dr{}_rt{}_dw{}_sl{}_{}_{}_{}_{}'.format(
+        setting = '{}_{}_{}_ft{}_sl{}_pl{}_dm{}_dr{}_rt{}_dw{}_sl{}_{}_{}_{}_{}_{}'.format(
             args.model_id,
             args.model,
             args.data,
@@ -176,6 +177,7 @@ if __name__ == '__main__':
             args.loss,
             args.des,
             args.d_state,
+            args.conv,
             ii)
 
         exp = Exp(args)  # set experiments

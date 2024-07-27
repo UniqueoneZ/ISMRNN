@@ -4,3 +4,5 @@ pandas
 scikit-learn
 torch
 einops
+mamba-ssm
+causal-conv1d>=1.4.0

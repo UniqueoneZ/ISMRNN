@@ -1,0 +1,4 @@
+sh scripts/ISMRNN/Ablation_study_on_using_convolution_layer/etth1.sh;
+sh scripts/ISMRNN/Ablation_study_on_using_convolution_layer/etth2.sh;
+sh scripts/ISMRNN/Ablation_study_on_using_convolution_layer/ettm1.sh;
+sh scripts/ISMRNN/Ablation_study_on_using_convolution_layer/ettm2.sh;

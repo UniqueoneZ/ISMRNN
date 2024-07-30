@@ -6,3 +6,4 @@ torch
 einops
 mamba-ssm
 causal-conv1d>=1.4.0
+reformer-pytorch

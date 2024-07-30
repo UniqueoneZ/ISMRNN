@@ -20,7 +20,7 @@ By enhancing these three changes, we conduct the experiments, the result is show
 To use the ISMRNN, first:
 - create a dataset file and add the corresponding datasets.
 - git clone https://github.com/UniqueoneZ/ISMRNN.git.
-- cd the MsegRNN file locaion.
+- cd the ISMRNN file locaion.
 - pip install -r requirements.txt
 - sh run_main.sh
 

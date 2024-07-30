@@ -28,3 +28,4 @@ Note that there is a certain variance in the experimental data for the model, an
 
 # Acknowledge
 We sincerely thank the following GitHub repositories for providing valuable code and test data：
+https://github.com/lss-1138/SegRNN.git

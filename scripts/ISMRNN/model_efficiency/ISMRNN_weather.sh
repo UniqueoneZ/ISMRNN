@@ -5,7 +5,7 @@ fi
 if [ ! -d "./logs/LongForecasting" ]; then
     mkdir ./logs/LongForecasting
 fi
-model_name=MSegRNN
+model_name=ISMRNN
 
 root_path_name=./dataset/
 data_path_name=weather.csv

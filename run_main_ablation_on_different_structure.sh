@@ -1,0 +1,12 @@
+sh scripts/ISMRNN/Ablation_study_on_different_structure/ISMRNN_withoutLR/etth1.sh;
+sh scripts/ISMRNN/Ablation_study_on_different_structure/ISMRNN_withoutLR/etth2.sh;
+sh scripts/ISMRNN/Ablation_study_on_different_structure/ISMRNN_withoutLR/ettm1.sh;
+sh scripts/ISMRNN/Ablation_study_on_different_structure/ISMRNN_withoutLR/ettm2.sh;
+sh scripts/ISMRNN/Ablation_study_on_different_structure/ISMRNN_withoutLR/weather.sh;
+
+
+sh scripts/ISMRNN/Ablation_study_on_different_structure/ISMRNN_withoutmamba/etth1.sh;
+sh scripts/ISMRNN/Ablation_study_on_different_structure/ISMRNN_withoutmamba/etth2.sh;
+sh scripts/ISMRNN/Ablation_study_on_different_structure/ISMRNN_withoutmamba/ettm1.sh;
+sh scripts/ISMRNN/Ablation_study_on_different_structure/ISMRNN_withoutmamba/ettm2.sh;
+sh scripts/ISMRNN/Ablation_study_on_different_structure/ISMRNN_withoutmamba/weather.sh;

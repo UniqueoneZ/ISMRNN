@@ -25,3 +25,6 @@ To use the ISMRNN, first:
 - sh run_main.sh
 
 Note that there is a certain variance in the experimental data for the model, and the hyperparameters have not yet been finely tuned. We will continue to improve this work in the future.
+
+# Acknowledge
+We sincerely thank the following GitHub repositories for providing valuable code and test data：

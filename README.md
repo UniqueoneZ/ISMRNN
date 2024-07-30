@@ -29,15 +29,27 @@ Note that there is a certain variance in the experimental data for the model, an
 # Acknowledge
 We sincerely thank the following GitHub repositories for providing valuable code and test data：
 https://github.com/lss-1138/SegRNN
+
 https://github.com/thuml/iTransformer
+
 https://github.com/johnma2006/mamba-minimal
+
 https://github.com/state-spaces/mamba
+
 https://github.com/zhouhaoyi/Informer2020
+
 https://github.com/Thinklab-SJTU/Crossformer
+
 https://github.com/yuqinie98/patchtst
+
 https://github.com/cure-lab/LTSF-Linear
+
 https://github.com/thuml/Autoformer
+
 https://github.com/MAZiqing/FEDformer
+
 https://github.com/alipay/Pyraformer
+
 https://github.com/ts-kim/RevIN
+
 https://github.com/timeseriesAI/tsai

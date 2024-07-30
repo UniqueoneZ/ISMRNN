@@ -1,4 +1,4 @@
-# MSegRNN
+# ISMRNN
 
 This is the official implement of ISMRNN, an Enhanced SegRNN model in "ISMRNN: An Implicitly Segmented RNN Method with Mamba for Long-Term Time Series Forecasting". The main code framework is from the official SegRNN code available at:https://github.com/lss-1138/SegRNN. And the official minimal implementation of Mamba can be found at:https://github.com/johnma2006/mamba-minimal. We would like to express our sincere gratitude.
 
@@ -19,7 +19,7 @@ By enhancing these three changes, we conduct the experiments, the result is show
 
 To use the ISMRNN, first:
 - create a dataset file and add the corresponding datasets.
-- git clone https://github.com/UniqueoneZ/MSegRNN.git.
+- git clone https://github.com/UniqueoneZ/ISMRNN.git.
 - cd the MsegRNN file locaion.
 - pip install -r requirements.txt
 - sh run_main.sh

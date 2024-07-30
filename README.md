@@ -1,6 +1,6 @@
 # MSegRNN
 
-This is the official implement of MSegRNN, a Enhanced SegRNN model in "ISMRNN: An Implicitly Segmented RNN Method with Mamba for Long-Term Time Series Forecasting". The main code framework is from the official SegRNN code available at:https://github.com/lss-1138/SegRNN. And the official minimal implementation of Mamba can be found at:https://github.com/johnma2006/mamba-minimal. We would like to express our sincere gratitude.
+This is the official implement of ISMRNN, an Enhanced SegRNN model in "ISMRNN: An Implicitly Segmented RNN Method with Mamba for Long-Term Time Series Forecasting". The main code framework is from the official SegRNN code available at:https://github.com/lss-1138/SegRNN. And the official minimal implementation of Mamba can be found at:https://github.com/johnma2006/mamba-minimal. We would like to express our sincere gratitude.
 
 We made several changes in SegRNN models to enhance it's behavior when the look-back windows is short:
 
@@ -17,7 +17,7 @@ The implicit segmentation we used is shown as follow:
 By enhancing these three changes, we conduct the experiments, the result is shown as follow:
 ![](image/result.jpg)
 
-To use the MSegRNN, first:
+To use the ISMRNN, first:
 - create a dataset file and add the corresponding datasets.
 - git clone https://github.com/UniqueoneZ/MSegRNN.git.
 - cd the MsegRNN file locaion.

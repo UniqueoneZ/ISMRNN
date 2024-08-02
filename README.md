@@ -13,7 +13,7 @@ We made several changes in SegRNN models to enhance it's behavior when the look-
 - We add a residual block from time series to encoder output, reduce the information loss in the RNN structure.
 
 The overall structure is shown as follow:
-![](image/overall_structure.jpg)
+![](image/overall_Structure.jpg)
 
 The implicit segmentation we used is shown as follow:
 ![](image/Implicit_Segmentation.png)
